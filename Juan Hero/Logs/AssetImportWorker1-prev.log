@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras" at "2026-10-02T03:37:25.3488882Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras" at "2026-10-07T06:11:43.4794975Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15599 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-02T03:37:25Z
+Date: 2026-10-07T06:11:43Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.6f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/jeremiah contreras/OneDrive/Documents/GitHub/emc202_2627_FIRST_SEM/Juan
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64779
+60211
 -licensingIpc
 LicenseClient-jeremiah contreras
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/jeremiah contreras/OneDrive/Documents/GitHub/emc202_2627_FIRST_SEM/Juan
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [31328]  Target information:
+Player connection [37260]  Target information:
 
-Player connection [31328]  * "[IP] 172.17.9.198 [Port] 0 [Flags] 2 [Guid] 1961200424 [EditorId] 1961200424 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGRKDQOA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [37260]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 3933939237 [EditorId] 3933939237 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGRKDQOA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31328] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31328] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [37260] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37260] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -102,7 +102,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -114,19 +114,19 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/E
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-jeremiah contreras"
 [Licensing::IpcConnector] LicenseClient-jeremiah contreras channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6" at "2026-10-02T03:37:30.6670665Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3208, path: "C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6" at "2026-10-07T06:11:48.0629901Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4004, path: "C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              7ed9dd42189846d999dfdb116265f00a
-  Correlation Id:          4c9372b5c69eb31f80366d20c667194a
-  External correlation Id: 7623371218116324872
+  Session Id:              dea3db3692cc406c8b68e312325d0d75
+  Correlation Id:          b524b54b432e012c79b921d8bfae3c42
+  External correlation Id: 3137430680652284264
   Machine Id:              nSJ3GyV4ZQQqs4FqFuEWxRWeICI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jeremiah contreras-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6-notifications" at "2026-10-02T03:37:30.6965311Z"
-[Licensing::Module] Licensing Background thread has ended after 5.35s
-[Licensing::Module] Licensing is initialized (took 2.87s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jeremiah contreras-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6-notifications" at "2026-10-07T06:11:48.0802562Z"
+[Licensing::Module] Licensing Background thread has ended after 4.60s
+[Licensing::Module] Licensing is initialized (took 2.47s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968427551114-UnityPersXXXX
@@ -134,7 +134,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 2.876565 seconds.
+Registered in 2.483802 seconds.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -144,23 +144,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.837 seconds
-Domain Reload Profiling: 4716ms
-	BeginReloadAssembly (278ms)
-	RebuildCommonClasses (89ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (2998ms)
-	LoadAllAssembliesAndSetupDomain (482ms)
-		LoadAssemblies (276ms)
-		AnalyzeDomain (461ms)
-			TypeCache.Refresh (458ms)
-				TypeCache.ScanAssembly (432ms)
-	FinalizeReload (839ms)
+- Finished resetting the current domain, in  0.726 seconds
+Domain Reload Profiling: 4301ms
+	BeginReloadAssembly (305ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (2596ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (291ms)
+		AnalyzeDomain (544ms)
+			TypeCache.Refresh (542ms)
+				TypeCache.ScanAssembly (522ms)
+	FinalizeReload (729ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (116ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (179ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (196ms)
+			ProcessInitializeOnLoadMethodAttributes (196ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -169,6 +169,7 @@ Begin MonoManager ReloadAssembly
 Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
 Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
 Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
 Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
 Native extension for Android target not found
@@ -179,160 +180,30 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.597 seconds
-Domain Reload Profiling: 1273ms
-	BeginReloadAssembly (411ms)
-		DisableScriptedObjects (11ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (99ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (58ms)
-		LoadAssemblies (255ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (13ms)
-			BuildScriptInfoCaches (3ms)
-	FinalizeReload (599ms)
+- Finished resetting the current domain, in  0.526 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (309ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (38ms)
+		LoadAssemblies (172ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (12ms)
+	FinalizeReload (528ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (142ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (13ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (29.9 KB). Loaded Objects now: 666.
-Memory consumption went from 66.2 MB to 66.2 MB.
-Total: 8.362000 ms (FindLiveObjects: 0.082600 ms CreateObjectMapping: 0.014000 ms MarkObjects: 8.096800 ms  DeleteObjects: 0.164300 ms)
+Unloading 120 unused Assets / (32.4 KB). Loaded Objects now: 721.
+Memory consumption went from 66.9 MB to 66.8 MB.
+Total: 6.124700 ms (FindLiveObjects: 0.143800 ms CreateObjectMapping: 0.029100 ms MarkObjects: 5.716200 ms  DeleteObjects: 0.228800 ms)
 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.513 seconds
-Domain Reload Profiling: 986ms
-	BeginReloadAssembly (304ms)
-		DisableScriptedObjects (10ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (23ms)
-		LoadAssemblies (177ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-			BuildScriptInfoCaches (3ms)
-	FinalizeReload (515ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (1.0 KB). Loaded Objects now: 666.
-Memory consumption went from 65.8 MB to 65.8 MB.
-Total: 4.223800 ms (FindLiveObjects: 0.089600 ms CreateObjectMapping: 0.011400 ms MarkObjects: 4.069700 ms  DeleteObjects: 0.051100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.494 seconds
-Domain Reload Profiling: 982ms
-	BeginReloadAssembly (328ms)
-		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (19ms)
-		LoadAssemblies (217ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (3ms)
-	FinalizeReload (495ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (123ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (9ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (1.0 KB). Loaded Objects now: 666.
-Memory consumption went from 65.9 MB to 65.9 MB.
-Total: 4.092600 ms (FindLiveObjects: 0.051500 ms CreateObjectMapping: 0.008000 ms MarkObjects: 3.967600 ms  DeleteObjects: 0.064100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
-Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
-Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.768 seconds
-Domain Reload Profiling: 1200ms
-	BeginReloadAssembly (266ms)
-		DisableScriptedObjects (7ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (62ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (22ms)
-		LoadAssemblies (166ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (3ms)
-			BuildScriptInfoCaches (3ms)
-	FinalizeReload (770ms)
-		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			BeforeProcessingInitializeOnLoad (174ms)
-			ProcessInitializeOnLoadAttributes (211ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (13ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (1.0 KB). Loaded Objects now: 666.
-Memory consumption went from 66.0 MB to 66.0 MB.
-Total: 6.178500 ms (FindLiveObjects: 0.068500 ms CreateObjectMapping: 0.011500 ms MarkObjects: 6.042900 ms  DeleteObjects: 0.054000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
