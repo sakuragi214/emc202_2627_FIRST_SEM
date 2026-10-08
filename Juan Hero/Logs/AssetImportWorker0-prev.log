@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.4/staging' branch; Version is '6000.4.6f1 (0b051c2e5d54) revision 722204'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras" at "2026-10-07T06:11:35.0778912Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras" at "2026-10-07T11:03:17.4751844Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 15599 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-07T06:11:35Z
+Date: 2026-10-07T11:03:17Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.4.6f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/jeremiah contreras/OneDrive/Documents/GitHub/emc202_2627_FIRST_SEM/Juan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60211
+59732
 -licensingIpc
 LicenseClient-jeremiah contreras
 -force-d3d12
@@ -68,12 +68,12 @@ C:/Users/jeremiah contreras/OneDrive/Documents/GitHub/emc202_2627_FIRST_SEM/Juan
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [18388]  Target information:
+Player connection [5300]  Target information:
 
-Player connection [18388]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 767455468 [EditorId] 767455468 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGRKDQOA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5300]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 2034435921 [EditorId] 2034435921 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-DGRKDQOA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18388] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18388] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5300] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5300] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -102,7 +102,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -114,19 +114,19 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/E
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-jeremiah contreras"
 [Licensing::IpcConnector] LicenseClient-jeremiah contreras channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6" at "2026-10-07T06:11:39.1870738Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 4004, path: "C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6" at "2026-10-07T11:03:20.5642514Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25808, path: "C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              27b6110d5a4a482a878f3a7b37c6b7c3
-  Correlation Id:          b524b54b432e012c79b921d8bfae3c42
-  External correlation Id: 8234613486014019692
+  Session Id:              0e1e49e1a7484708bd259b02b938c1d1
+  Correlation Id:          5b809681dae13b08b2bca0cdf1d96c8c
+  External correlation Id: 7216639951144276836
   Machine Id:              nSJ3GyV4ZQQqs4FqFuEWxRWeICI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jeremiah contreras-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6-notifications" at "2026-10-07T06:11:39.2133086Z"
-[Licensing::Module] Licensing Background thread has ended after 4.14s
-[Licensing::Module] Licensing is initialized (took 2.56s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jeremiah contreras-6000.4.6" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jeremiah contreras-6000.4.6-notifications" at "2026-10-07T11:03:20.580422Z"
+[Licensing::Module] Licensing Background thread has ended after 3.11s
+[Licensing::Module] Licensing is initialized (took 1.60s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 18968427551114-UnityPersXXXX
@@ -134,7 +134,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/E
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 2.569439 seconds.
+Registered in 1.602202 seconds.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -144,23 +144,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.704 seconds
-Domain Reload Profiling: 4511ms
-	BeginReloadAssembly (159ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (2679ms)
-	LoadAllAssembliesAndSetupDomain (884ms)
-		LoadAssemblies (157ms)
-		AnalyzeDomain (865ms)
-			TypeCache.Refresh (862ms)
-				TypeCache.ScanAssembly (836ms)
-	FinalizeReload (706ms)
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 2679ms
+	BeginReloadAssembly (209ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (1678ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (205ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (203ms)
+				TypeCache.ScanAssembly (189ms)
+	FinalizeReload (485ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (130ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (189ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -180,39 +180,983 @@ Native extension for WebGL target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.977 seconds
-Domain Reload Profiling: 1690ms
-	BeginReloadAssembly (440ms)
-		DisableScriptedObjects (13ms)
-		CreateAndSetChildDomain (99ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (87ms)
-	LoadAllAssembliesAndSetupDomain (59ms)
-		LoadAssemblies (220ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (34ms)
-				TypeCache.ScanAssembly (20ms)
-			BuildScriptInfoCaches (3ms)
-	FinalizeReload (980ms)
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 734ms
+	BeginReloadAssembly (198ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (37ms)
+		LoadAssemblies (115ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (13ms)
+	FinalizeReload (416ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			BeforeProcessingInitializeOnLoad (361ms)
-			ProcessInitializeOnLoadAttributes (257ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (11ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 120 unused Assets / (32.3 KB). Loaded Objects now: 721.
-Memory consumption went from 64.9 MB to 64.9 MB.
-Total: 8.106600 ms (FindLiveObjects: 0.100700 ms CreateObjectMapping: 0.015500 ms MarkObjects: 7.770800 ms  DeleteObjects: 0.214300 ms)
+Memory consumption went from 65.0 MB to 65.0 MB.
+Total: 5.507400 ms (FindLiveObjects: 0.074600 ms CreateObjectMapping: 0.010900 ms MarkObjects: 5.198000 ms  DeleteObjects: 0.220000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 621205.033684 seconds.
-  path: Assets/_Recovery/0 (4).unity
-  importAddress: Guid(f63347bf8d1fb0b4587b502c47f44ae3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery/0 (4).unity using Guid(f63347bf8d1fb0b4587b502c47f44ae3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '48d97c3e079d212dcd5af87662456b00') in 0.2643973 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ca47bd39cbd477e9f6f41185fa72733 DependenciesID=8919db23e2e00c3aa0304a1ad1c6c30f StaticDependenciesID=256044688913fd46c1fd23be26da4980 
+  Time since last request: 638705.242748 seconds.
+  path: Assets/Juan Hero.unity
+  importAddress: Guid(037ecad5c62707e4bb7402f0d91e5059) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Juan Hero.unity using Guid(037ecad5c62707e4bb7402f0d91e5059) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db2f948df73521546b355387080bfde9') in 0.0961395 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad66f1bdae4ccf7741e4b0cf402d2ddd DependenciesID=8a299df0929b2a448cca153eda45cc15 StaticDependenciesID=ef66d66a6b74e107d307b229832beb4b 
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animation/walking anim(red croco).controller
+  importAddress: Guid(73a0b79f3cc7c0c4aad1096659cb1068) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/walking anim(red croco).controller using Guid(73a0b79f3cc7c0c4aad1096659cb1068) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6856ba9ba6786afc0520565a0bc7cc6a') in 0.0222265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb3d6c24a5a8e4ec3b56da4a77725a96 DependenciesID=ebe7ac7ddacd9bc7cf8d5af182f9d6da StaticDependenciesID=fa997e680374bb9cf89b4a050c835fed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.428 seconds
+Domain Reload Profiling: 729ms
+	BeginReloadAssembly (183ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (18ms)
+		LoadAssemblies (110ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (430ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (3.1 KB). Loaded Objects now: 723.
+Memory consumption went from 65.4 MB to 65.4 MB.
+Total: 4.597800 ms (FindLiveObjects: 0.087500 ms CreateObjectMapping: 0.017200 ms MarkObjects: 4.425600 ms  DeleteObjects: 0.065100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 842ms
+	BeginReloadAssembly (204ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (17ms)
+		LoadAssemblies (131ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (522ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (3.1 KB). Loaded Objects now: 723.
+Memory consumption went from 65.6 MB to 65.6 MB.
+Total: 5.596100 ms (FindLiveObjects: 0.081400 ms CreateObjectMapping: 0.008900 ms MarkObjects: 5.447300 ms  DeleteObjects: 0.056400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1599.960088 seconds.
+  path: Assets/juan (walking animation).png
+  importAddress: Guid(eaef5c4820391b6499ad4cef232a28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/juan (walking animation).png using Guid(eaef5c4820391b6499ad4cef232a28d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (Import Result ID: 'b7822a34adaac39346126fb2db76ca7e') in 0.1032306 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e232161d4e514373f7fab6985668a685 DependenciesID=d07a6b7458902c36c59ad1af0b3d0930 StaticDependenciesID=ac5bee0337348923cb4d1c366cc4063d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.542742 seconds.
+  path: Assets/juan( right).png
+  importAddress: Guid(8bf6bf46d82fb3e4798ad806788fe2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/juan( right).png using Guid(8bf6bf46d82fb3e4798ad806788fe2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'c9185762a747558236e9c251c7db3644') in 0.0095734 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=079711787dabc95b6a277147ef723135 DependenciesID=df8e378fea612b1f33e725e653c8d17f StaticDependenciesID=ab2f01c3ce900849beefae1165baf80c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.436930 seconds.
+  path: Assets/juan (walking animation).png
+  importAddress: Guid(eaef5c4820391b6499ad4cef232a28d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/juan (walking animation).png using Guid(eaef5c4820391b6499ad4cef232a28d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7bdb04973352c44b15a5ac01f7bf5017') in 0.1327413 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5f5b39670f425516fc38ff55e0f1c5e DependenciesID=3168937128b0531b34c6829f97d3161c StaticDependenciesID=bf6415e538d801552de37ba2dc67cf4a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.977855 seconds.
+  path: Assets/juan( left).png
+  importAddress: Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/juan( left).png using Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '5a9c5b01c7530871e2cf5aa4d59c4f9e') in 0.0137132 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efda1f79ef1c403934f63b2b0153b9c3 DependenciesID=a8467ff0ed46ac1e27f21824cda151c8 StaticDependenciesID=c361a9ddef23aa8489eb95197ccc9b5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.962534 seconds.
+  path: Assets/juan( left).png
+  importAddress: Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/juan( left).png using Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0fe0221705f2e356b3b28e02e248eeab') in 0.0124519 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d338c5bba02b1d3ecca05662fbf36282 DependenciesID=f9f992fcf90e846d36c4a1429a20c27c StaticDependenciesID=c3d0244149ec129fa6de3f3aebbb7000 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.333543 seconds.
+  path: Assets/juan( left).png
+  importAddress: Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/juan( left).png using Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '57f79044aa21b2053656973fcd6a2073') in 0.0150323 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=833108005dd0f3a984ce54df32ad006f DependenciesID=c28334814cc49f303f7802bb7aeb17fa StaticDependenciesID=2445c2e41544bd6cf3ac9d0c35ce6a7c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.920443 seconds.
+  path: Assets/juan( left).png
+  importAddress: Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/juan( left).png using Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d39a6d4600cf4bee27a94a52eb4ad11') in 0.0121056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e4a39274731cebec9daadee2c690aeb DependenciesID=77648eaedfe8c4968e813cbc9b9795fa StaticDependenciesID=a306bc36f3eb210880483e751da73d2a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 598ms
+	BeginReloadAssembly (168ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (20ms)
+		LoadAssemblies (96ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (3ms)
+			BuildScriptInfoCaches (3ms)
+	FinalizeReload (333ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (3.1 KB). Loaded Objects now: 728.
+Memory consumption went from 65.8 MB to 65.7 MB.
+Total: 3.658900 ms (FindLiveObjects: 0.049800 ms CreateObjectMapping: 0.007200 ms MarkObjects: 3.513000 ms  DeleteObjects: 0.087800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 439.498872 seconds.
+  path: Assets/Animation/juan.controller
+  importAddress: Guid(3f3fb80b7a1a43d4b82a20cfaa03272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/juan.controller using Guid(3f3fb80b7a1a43d4b82a20cfaa03272d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8d3df5121f080f276bd329d3efe26fef') in 0.0162163 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=604bb91f64a0f71e7030fa438c13a288 DependenciesID=5d12a469fd58ebdd867e2085b57433a4 StaticDependenciesID=45c90c386d08d4b84c413d7031541614 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.899706 seconds.
+  path: Assets/Animation/juan.controller
+  importAddress: Guid(3f3fb80b7a1a43d4b82a20cfaa03272d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/juan.controller using Guid(3f3fb80b7a1a43d4b82a20cfaa03272d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e9850bca329c01ae3857b65674427be7') in 0.0709431 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ec8d64e209fcbe24f500b674ef47bd5 DependenciesID=a3d0f60fde8b91d5e4acbc0918d0a64a StaticDependenciesID=7b658291941dbf369f04a67d05361ab3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.304445 seconds.
+  path: Assets/Animation/New Animation.anim
+  importAddress: Guid(a7c0da8e384e28d4b91371368317240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animation.anim using Guid(a7c0da8e384e28d4b91371368317240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '57d349cf64f52826a86097fb3e4408dc') in 0.0027078 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d990ddef5809606629ba76949ff4b911 DependenciesID=0f93cf9f784ff8c0a4a7927de402cc71 StaticDependenciesID=f5091b0a44d88fadbe7eede1cbaba6ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.984454 seconds.
+  path: Assets/Animation/New Animation.anim
+  importAddress: Guid(a7c0da8e384e28d4b91371368317240a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/New Animation.anim using Guid(a7c0da8e384e28d4b91371368317240a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '230254b857b05f0a2f37e77e32246031') in 0.0283829 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e43d361906663efeb25e935c08ec71e3 DependenciesID=717f8ab4f2cc2833215404ea5e066061 StaticDependenciesID=f9321b13dc0f4527b0dada3bfc532e5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816890 seconds.
+  path: Assets/Animation/right.anim
+  importAddress: Guid(a7c0da8e384e28d4b91371368317240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/right.anim using Guid(a7c0da8e384e28d4b91371368317240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3991c0debcacaf982d06d36f479a25e4') in 0.0011745 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d990ddef5809606629ba76949ff4b911 DependenciesID=0fdfd446c361bed266e3718e097267f8 StaticDependenciesID=3ea4cdea65c4f8433142a4e9f42a4816 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.981130 seconds.
+  path: Assets/Animation/right.anim
+  importAddress: Guid(a7c0da8e384e28d4b91371368317240a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/right.anim using Guid(a7c0da8e384e28d4b91371368317240a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4496805297ac3e316cb635beddd11e9e') in 0.006289 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15572b6b811b1d4100aa297ae157ec94 DependenciesID=0b0d493dc85b42faf1df75ae4ff1e03e StaticDependenciesID=a20053dfb111e9a4dfb77b01ffbe8edf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.117379 seconds.
+  path: Assets/Animation/left.anim
+  importAddress: Guid(1168db214d5040b48a5c75012d0aa0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/left.anim using Guid(1168db214d5040b48a5c75012d0aa0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '70f8ec5f91a926de8fc9db28fcaec0ac') in 0.002035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6364e629b972c124865d0b13a3d6b9e4 DependenciesID=8071907a2bdf70db430ec42b94701ac7 StaticDependenciesID=1e2e9bfd28ce5da29ceffd481743d1e0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.987118 seconds.
+  path: Assets/Animation/left.anim
+  importAddress: Guid(1168db214d5040b48a5c75012d0aa0af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animation/left.anim using Guid(1168db214d5040b48a5c75012d0aa0af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b45c104c5ce4f196664683a4ee63b775') in 0.0059259 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71dc356b341ec3074224add5750ca1d0 DependenciesID=dc5ae084e68d52800c42e9e6cb9a532c StaticDependenciesID=2b2ee4a66977a603763ace9abb292ce5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.005078 seconds.
+  path: Assets/juan( left).png
+  importAddress: Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/juan( left).png using Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '10c40226f080641684cf551228a3758e') in 0.373387 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bd53662dc52ccb78ef00a1e46d3a619 DependenciesID=73aa3b4d4151fd380bf1a8b5a6472e4d StaticDependenciesID=d4b44a0dc162eb525b5b8970714857d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.568716 seconds.
+  path: Assets/juan( left).png
+  importAddress: Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/juan( left).png using Guid(b8d3d5feaf36c7141beabe6edb1d887c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ab889ef84efba11c8bf661550d82473e') in 0.0649316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ac2a0ae163f5099ceef3506c6bd7fd5 DependenciesID=a11b4423f410ae786bd9952a2c452b13 StaticDependenciesID=d0e5e43929c297f674af376762523a25 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 793.310625 seconds.
+  path: Assets/Walking Animation right for juan_files/code-block-viewer-bb2wmqiy.css
+  importAddress: Guid(04d26ec8f4f38e343a349297d9a0b914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/code-block-viewer-bb2wmqiy.css using Guid(04d26ec8f4f38e343a349297d9a0b914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e89933bb1fb51db43980058a9332c9b') in 0.0090859 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82affedd2e7bf098debe9242649bc81c DependenciesID=db94e79680ee0397453d6dd490a41e53 StaticDependenciesID=6e7078f258c68876483469050f8bce2a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421200 seconds.
+  path: Assets/Walking Animation Frames transition_files/root-gpzllzyu(1).css
+  importAddress: Guid(2356931710ea5c64e92ef0c48cd9b1d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/root-gpzllzyu(1).css using Guid(2356931710ea5c64e92ef0c48cd9b1d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '73ab278a6dd97dd33dfe3cebd9c2b42f') in 0.0074572 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1458a52e936ceffcf6bca4c3bd72a308 DependenciesID=b2ce30669bcc772c6ce1e8efa0bca97b StaticDependenciesID=549f198a91ebb9ce723a2244af423aa3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.691459 seconds.
+  path: Assets/Walking Animation right for juan_files/root-gpzllzyu.css
+  importAddress: Guid(435bf82b218406e469e5657044028f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/root-gpzllzyu.css using Guid(435bf82b218406e469e5657044028f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b27396783e2a861b3aaf78cb3fc31a9') in 0.0068029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4f86bf6644a7df1c3323527785e102d DependenciesID=0116c361959b7dc0760534ba5d52ae9e StaticDependenciesID=b6a3ef682efd3f5dc63b1a62a9dcf455 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Walking Animation Frames transition_files/CodeBlock-dzm479t6.css
+  importAddress: Guid(e9581f294834943469139ca36c5d5a4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/CodeBlock-dzm479t6.css using Guid(e9581f294834943469139ca36c5d5a4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5757c17f996ebc28ca0edc84a4f85015') in 0.0055076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5594068f5efe816d7150bf218b0f92ea DependenciesID=aeace8c3cdf0f0a82f3bf9cb15d8c3a9 StaticDependenciesID=ac5cf937eaed05a440e675f6e0a50319 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Walking Animation Frames transition_files/TextLink-hyfuyd7n.css
+  importAddress: Guid(41741907f0655e640ad57df24d89f851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/TextLink-hyfuyd7n.css using Guid(41741907f0655e640ad57df24d89f851) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b388143646bd8df9555156264af07a0c') in 0.0055317 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=327e106ef5dae54702092bd0a025bbab DependenciesID=62d6a7a6ae03a641af465627c9131ad3 StaticDependenciesID=135b23d11ed9acf920fc099953577e34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Walking Animation Frames transition_files/chart-cwy55wdp.css
+  importAddress: Guid(862314ed26ccc8640808dcad7d46c105) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/chart-cwy55wdp.css using Guid(862314ed26ccc8640808dcad7d46c105) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7dc2166146d5d8978b3c79287cf1eebd') in 0.0044942 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dd17442ddf1b1525f71bbddef85bb45 DependenciesID=4357fe0112b3543b25988a6293d14a29 StaticDependenciesID=fe86230c245dba72869b3efd0b5eea85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/react-cj2gxmrc.css
+  importAddress: Guid(d645bf09bc7486d4b9abca6572049ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/react-cj2gxmrc.css using Guid(d645bf09bc7486d4b9abca6572049ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a47c0df1943fafe999a3ad5ccf3a2ef') in 0.0073453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5240a99b9de0979f067eace28c115dd9 DependenciesID=ed23137630882c55895ae134dd5c283b StaticDependenciesID=fd3d41d3aadf28c88aabe6f7aa234170 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Walking Animation right for juan_files/FormattedText-dn9bmv7i.css
+  importAddress: Guid(460574ee58a76c84aa6aa6b011bae0d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/FormattedText-dn9bmv7i.css using Guid(460574ee58a76c84aa6aa6b011bae0d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ed9f9fb5619a2d6a57562600da129119') in 0.0052826 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=caaba7861caf2b9686f104921720e86a DependenciesID=5c6dc594a7c60095d00214be7fcf4768 StaticDependenciesID=fe17617c518c28c3a934b73a709f34ac 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/cot-v5-active-cot-oiuw3dfm.css
+  importAddress: Guid(0ca9d6d8594e77149a493648ecba4c32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/cot-v5-active-cot-oiuw3dfm.css using Guid(0ca9d6d8594e77149a493648ecba4c32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5353fced26ae319efd4b478604dc7d5b') in 0.0053082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89840ad8d4d1474df2c426d66d52daaf DependenciesID=20129905a61e8549799eed9c052dc95d StaticDependenciesID=96bb6caecf357b42cb67d9069af42e9e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Walking Animation Frames transition_files/ansi-1f6vhsjh.css
+  importAddress: Guid(7617d7658093cf94d96f826ab8e39324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/ansi-1f6vhsjh.css using Guid(7617d7658093cf94d96f826ab8e39324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '953061e2c75a55c3b432b43bafef9304') in 0.0082219 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c87d7f2a47a3ed70b87700392e87f06e DependenciesID=692205e8dc1d71900d5f88c87b9007c5 StaticDependenciesID=afc1da40940b185e3b89763d15122f93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Walking Animation right for juan_files/cot-message-chunk-b8hse3v2.css
+  importAddress: Guid(143c08de0f6307b449353272fde2e7cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/cot-message-chunk-b8hse3v2.css using Guid(143c08de0f6307b449353272fde2e7cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6ab771506987cdecd8db17a826d1bc2c') in 0.0059949 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13e7a8c55cd49444bb67cce888dc6087 DependenciesID=dc9182f4bb4bb4b297c93c84f4436bb9 StaticDependenciesID=92f8ea7a428fa102790d1875da9a7ea3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Walking Animation Frames transition_files/Button-ijivgymd.css
+  importAddress: Guid(0d44fc3adf150eb43a37f6c271acaefb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Button-ijivgymd.css using Guid(0d44fc3adf150eb43a37f6c271acaefb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '369f760da1dd49b9b2e0c6c554839c40') in 0.0061034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6832163e759576f4a25468048c280cc DependenciesID=d9fe5ce9b65e80c3ba594b41577c2f65 StaticDependenciesID=6b627a60f1829209558c0e102fa6bcf0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/root-kkkrq8jb.css
+  importAddress: Guid(3d0d3bb9fd06e88438a7275145f4178b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/root-kkkrq8jb.css using Guid(3d0d3bb9fd06e88438a7275145f4178b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1f2b9e27fbf2c5de1ea61b414ca60e64') in 0.0058398 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad426df988b4ba4aeae0f4e5ebe68a1b DependenciesID=6975ad1c5df10266d889fbf72a7adc5d StaticDependenciesID=7d54b471000f1dfaf723907e33fb2f92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/client-defined-widget-gdqdmhro.css
+  importAddress: Guid(53cbd5ffc308f9b428f61c6daf5ecb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/client-defined-widget-gdqdmhro.css using Guid(53cbd5ffc308f9b428f61c6daf5ecb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a174de99c3584b15e6e0694ffc7a13d6') in 0.0066661 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c521028ae04d5a971653951307140ee DependenciesID=7d69d2ea0c1518bc37b189177f00435e StaticDependenciesID=d4b2e42f2c1d21c248e4a2a6ce41034a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Walking Animation right for juan_files/sdk(1).js.download
+  importAddress: Guid(41f1600d23ec8464e8e7e1528b0cba5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/sdk(1).js.download using Guid(41f1600d23ec8464e8e7e1528b0cba5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2b1517a0038ebf061f18e448525bf06a') in 0.006829 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7472da36fd450bdf3ec7fa3818ccaef8 DependenciesID=5feaf5bcdfe31810e397e868d4fccc3a StaticDependenciesID=2c91144c5fa2e16f9513e13d3b0fb094 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Walking Animation Frames transition_files/dil-sandbox-file-download-cbx2rx77.css
+  importAddress: Guid(fcfbfb46bbca19d4d838b9348cd283e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/dil-sandbox-file-download-cbx2rx77.css using Guid(fcfbfb46bbca19d4d838b9348cd283e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '979dfe6023327ef6a8de6e3c28c105df') in 0.0076713 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea5506950a2e2a74c6d448b220c9db62 DependenciesID=3d6b7803014fe0b2eec89ff32d91cf62 StaticDependenciesID=f9171f9935d6c4c88aad72e15603e2bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/Popover-jjzuc9pc.css
+  importAddress: Guid(f9588f85ec6c92c46a1935af2d15d3c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/Popover-jjzuc9pc.css using Guid(f9588f85ec6c92c46a1935af2d15d3c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a75389beb764935ba5c09d6d572ae3b5') in 0.0060305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8f04314519ab9888f59f1098f425e7e8 DependenciesID=70c94ac0e5d0bf2082f8b16842934047 StaticDependenciesID=efe75271cf505bb14e1baa61e3cf17d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/Button-ijivgymd.css
+  importAddress: Guid(8a9a9d68a91531e4fabd2fb3aaf6e6b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/Button-ijivgymd.css using Guid(8a9a9d68a91531e4fabd2fb3aaf6e6b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53f642186d517ce266b2393e3caf85c0') in 0.0062574 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fea82269dba81d1f098d418ed56c392 DependenciesID=cc3ea43c9467497eb82910908f765b11 StaticDependenciesID=9919f61f6a0ae3cbe5ead46e7ab65171 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/artifact-preview-sidebar-k26ypxwb.css
+  importAddress: Guid(c2ef721eb24454443b5165aefd55dd1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/artifact-preview-sidebar-k26ypxwb.css using Guid(c2ef721eb24454443b5165aefd55dd1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd376a3a1a0e6eaf7bc8694283f044bb3') in 0.0062849 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8afb38756538f0db8b5ba77ead79465 DependenciesID=f087e99b99da1ec845624a70eaf34876 StaticDependenciesID=38fca1f3dbb8cc387ebfa4dbd6093b95 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/TextLink-hyfuyd7n.css
+  importAddress: Guid(232e12555388a1a4d92636b2cb0d6a76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/TextLink-hyfuyd7n.css using Guid(232e12555388a1a4d92636b2cb0d6a76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'eb79dfe6f2d5043421f634a6020f89ad') in 0.0212866 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b21841766c30b78f9ce0f9a9eebae42 DependenciesID=a6141205308ae59c34167511adb4d64a StaticDependenciesID=0ae6c842518d7b8ebe45f3936a98de6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Walking Animation Frames transition_files/global-modals-m6d51e47.css
+  importAddress: Guid(3b3d9924a96658245a7a9fb5fd512599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/global-modals-m6d51e47.css using Guid(3b3d9924a96658245a7a9fb5fd512599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3602a8093031216c436f022b7812721') in 0.0083538 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=78367a7cd04f0864ef8d6a8f79a4cddc DependenciesID=c9a14fc05e2fbe20dd7ce6bbed336592 StaticDependenciesID=18b513815056d867554f819eb6b57c1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/cot-message-kqp4eshj.css
+  importAddress: Guid(a12029e60cdb0e34db12fe3c0cd03e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/cot-message-kqp4eshj.css using Guid(a12029e60cdb0e34db12fe3c0cd03e28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '500a4633d32513601fdfdcd8d0247d3a') in 0.0071867 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=180514b4ab0f82df1af27b71dbd8ac38 DependenciesID=05c19e0e9abdded0fafda5a738a24565 StaticDependenciesID=e69fe78d4c14cad46d2f2bbd0d76e7f3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Walking Animation Frames right for juan_files
+  importAddress: Guid(bf7f6732a6322004ea01fab5c83904b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files using Guid(bf7f6732a6322004ea01fab5c83904b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9e2a0a898085ff434057c0f2781eedd') in 0.0050691 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f90658cfe79d5be46f46a4b87891a975 DependenciesID=2baa3341dcc1f18a0b96e83913adb9c1 StaticDependenciesID=9bd64971a48709b14458d933f647d65c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Walking Animation Frames transition.html
+  importAddress: Guid(755c5ba9d2ce0b9438e22007e50ea47a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition.html using Guid(755c5ba9d2ce0b9438e22007e50ea47a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d644fb79a6e4044ec7f0a8c1512f186') in 0.0062657 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=378041bc0ebd7cb5f80b0ff869a0a048 DependenciesID=b516aa4d458123fb0d4e0828c75a4629 StaticDependenciesID=9b8316f9322937d0ad1265d658d3167c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/DatePicker-lvtkn77u.css
+  importAddress: Guid(b249fdbedad6d8d4eb3cb4c9e6d4b8d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/DatePicker-lvtkn77u.css using Guid(b249fdbedad6d8d4eb3cb4c9e6d4b8d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f61d060d9f754e9c4dad3afb51d6d981') in 0.0052035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=586ad6e884807378f36be0f3bad7a4b7 DependenciesID=ac89736b6dc2fe90272fb44c27982b53 StaticDependenciesID=8a2f05779957942cc256b1f452a454b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Walking Animation right for juan_files/dil-sandbox-file-download-cbx2rx77.css
+  importAddress: Guid(5148be1598f528f449c92ff615a53a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/dil-sandbox-file-download-cbx2rx77.css using Guid(5148be1598f528f449c92ff615a53a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ff3625d32f71407e4634e165d02fefb') in 0.0059718 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=152fae7f8685b8a2a42915cf51d258e9 DependenciesID=8936e8fdb2ec50e872f7490a3b0306b9 StaticDependenciesID=d2f7eeee09cd9bfe6da12716b13786ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Walking Animation Frames transition_files/root-kkkrq8jb.css
+  importAddress: Guid(bcf8300414e2bee4fb2bc470347766f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/root-kkkrq8jb.css using Guid(bcf8300414e2bee4fb2bc470347766f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '530d6df965e5a8d3d6960250250500a2') in 0.0061555 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6990ddb74df5176c6b3ec0a59485ef9b DependenciesID=8d994bfe7014b7219116653a3863f664 StaticDependenciesID=dfa84790338bad00fe809124c8b91dbe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/multiplayer-pp910s5j.css
+  importAddress: Guid(c0566cc32f118424489058cdd4bbb98b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/multiplayer-pp910s5j.css using Guid(c0566cc32f118424489058cdd4bbb98b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '06c720f9d2bba93c8e2e1234d0dcbad1') in 0.0053038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4394b2a13323ebe126d7b875484c5dc DependenciesID=b22f496e5c97740f5d495386b42b5062 StaticDependenciesID=1ce4a0e7b058b95c1e65597f221f5f61 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/code-block-viewer-bb2wmqiy.css
+  importAddress: Guid(46fbb925181177d40bb552858ad6aba5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/code-block-viewer-bb2wmqiy.css using Guid(46fbb925181177d40bb552858ad6aba5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b64684e73d9fdd257f079bc346620ea6') in 0.0053256 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0f6d819747b2a1f45ab4af47ad1716e DependenciesID=156e48a88fdde5b67fe4183b899887b1 StaticDependenciesID=6c36a3dd31244c9fab4726ca47041857 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Walking Animation right for juan_files/table-components-b39fqymt.css
+  importAddress: Guid(1565e1d7411b08744a085af090adccb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/table-components-b39fqymt.css using Guid(1565e1d7411b08744a085af090adccb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b0a99a97ac6241e68819b932c0c7f7fc') in 0.0069337 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ac9379b3cde7782dc6d1bbd63b8ed01 DependenciesID=a207fa20912bc572090c057598883661 StaticDependenciesID=b7bcdd64b78f3af57a2b09ef5cbdaf5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Walking Animation Frames transition_files/writing-block-gwgymy54.css
+  importAddress: Guid(f155532f979cc0045bfff155d67884ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/writing-block-gwgymy54.css using Guid(f155532f979cc0045bfff155d67884ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1eb25d1a1547673fb5f80d407c1f56cd') in 0.0051526 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d350c5103fff2b0e643178a2402ff37c DependenciesID=9651f5a27319000e18eb63e73410d224 StaticDependenciesID=d57dda5f68671b73901c0ed9a50ee974 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Walking Animation Frames transition_files/Input-cmdkk215.css
+  importAddress: Guid(fc89e8e6f16668c4cbd18397e3b63e75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Input-cmdkk215.css using Guid(fc89e8e6f16668c4cbd18397e3b63e75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '508ba288e3bf25b5de789f89d30504c8') in 0.0073464 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e10d5b6ecf81fa6b0f9d8b8e18c8e87 DependenciesID=4e18066d603ebbb1df6b917373631306 StaticDependenciesID=84996cfce9bf11f880e7182a5f18ec92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Walking Animation Frames transition_files/sdk(1).js.download
+  importAddress: Guid(cde06b79efbf256458b2f68f455fff5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/sdk(1).js.download using Guid(cde06b79efbf256458b2f68f455fff5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '221e8a4767b65f15fd7909ba5d912090') in 0.0070668 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee1d3b98d0d1024e1e179140704c9c9b DependenciesID=1d0c93bab88b2d1ff5f15b4af42e9ac0 StaticDependenciesID=a35fefd702a1be9535d23032b6168530 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Walking Animation Frames transition_files/table-components-b39fqymt.css
+  importAddress: Guid(13b8ac43c0560a743a13014fce8012e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/table-components-b39fqymt.css using Guid(13b8ac43c0560a743a13014fce8012e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e4c1b13bdd4708a165c48e8834ac84ee') in 0.0073654 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79b507ef416e41a610f64a0e175ca2c1 DependenciesID=d97518bb100570e1d2c4c26c7ca45577 StaticDependenciesID=63b68d308f32fc1abfdae56d4de0a935 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/RadioGroup-m8zapj2d.css
+  importAddress: Guid(6d249506e4c36974d95f9fbcf4224c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/RadioGroup-m8zapj2d.css using Guid(6d249506e4c36974d95f9fbcf4224c4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1de9e546a5550977887d48016bfeb0ae') in 0.0075026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11b0f277a8c3dd2545514416208adf09 DependenciesID=11834858a88506bdd7f182a7a6e87aa2 StaticDependenciesID=2e0229ab493404c0f3890be306cbd167 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Walking Animation Frames transition_files/cot-v5-fnydfm44.css
+  importAddress: Guid(65be518c9009a804fb16ccaae354e99f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/cot-v5-fnydfm44.css using Guid(65be518c9009a804fb16ccaae354e99f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d1edce13b0c5da08d3510105262a898') in 0.0060838 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=048d23f9dbc5d104e1c80724a32c50c4 DependenciesID=ec82df1807108abeefab48fadcada786 StaticDependenciesID=02f3eb538e50d8d093684ae58fcdd00e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Walking Animation right for juan_files/SmoothedMarkdown-3zguu66h.css
+  importAddress: Guid(d094049392772114c82dffc1447bbfdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/SmoothedMarkdown-3zguu66h.css using Guid(d094049392772114c82dffc1447bbfdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd5a079763342a8bc14a6344d5542aec1') in 0.0063731 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a310f1dcd91bff585d6fff1c9dac577e DependenciesID=ee71b311cb1ea2e9ab09a2136954d6a9 StaticDependenciesID=c5a74770576de18a851816c26bb68bdf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Walking Animation right for juan_files/7d259032-f397-4a9e-b2b9-c45f33c92941.png
+  importAddress: Guid(ba906241cd5faaf488fc220762b496d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/7d259032-f397-4a9e-b2b9-c45f33c92941.png using Guid(ba906241cd5faaf488fc220762b496d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '621c83bd2e0567fcb90e718ccddcb53e') in 0.0150822 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8861f5b99dde4ecdd3119ebe14b64741 DependenciesID=d4ee5901d2ba8699e9f18899f7e4b130 StaticDependenciesID=620ff27227d040bcfdb7890f1cc6a1f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Walking Animation Frames transition_files/juan.png
+  importAddress: Guid(8b92af7b74640bd41aab0ca783b55474) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/juan.png using Guid(8b92af7b74640bd41aab0ca783b55474) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dde1b30b59f2f46108672518c31a9bfc') in 0.0165345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=693ef242b53acecb2bda324a60abb7f3 DependenciesID=7af85b0f521fc8fcb9a8baf7ff5eec70 StaticDependenciesID=d7f9e16470e997cfd2739f48836ea5f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Walking Animation right for juan_files/cot-v5-active-cot-oiuw3dfm.css
+  importAddress: Guid(33d620a8e976f8540ab93e1976b885f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/cot-v5-active-cot-oiuw3dfm.css using Guid(33d620a8e976f8540ab93e1976b885f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '78aca956feb94f4ebd64ad2c037e695e') in 0.0073707 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d53670178656753a105ad5bb642f685 DependenciesID=785a3f237b3747774de29d2f806be9c8 StaticDependenciesID=64dc412504e85d5ea50a0b42de5f6cc1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Walking Animation Frames transition_files/FormattedText-dn9bmv7i.css
+  importAddress: Guid(e19fa812459a5a34897907874774615c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/FormattedText-dn9bmv7i.css using Guid(e19fa812459a5a34897907874774615c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8f614250da66f7941c45d022973c697a') in 0.0066903 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4202d9ec6c9e9845fd04beb093c625f8 DependenciesID=331641a92982a655c34938d84944b310 StaticDependenciesID=e4eb400081b951dcd0a09967b77f8ebe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Walking Animation Frames transition_files/sdk.js.download
+  importAddress: Guid(96bc1c7bf4336ea4d90420c239cda070) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/sdk.js.download using Guid(96bc1c7bf4336ea4d90420c239cda070) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d27b3dd7975e7ce6b1411751f8c01dd') in 0.0059064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f45059deb80abbf57ed45ef98a2c67b DependenciesID=a3a6bc0b98a2d44f6c76bc93baab3b17 StaticDependenciesID=9e20a31132ccd6e54b8a543837cbdf37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Walking Animation right for juan_files/Button-ijivgymd.css
+  importAddress: Guid(a0244a9b43f331d4fab68bbc6f93db1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/Button-ijivgymd.css using Guid(a0244a9b43f331d4fab68bbc6f93db1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '22794d22d93bb692a8e1cdeb83c3b219') in 0.0065173 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7f50d30a9ef6007bea8896c716ccd35 DependenciesID=23863d8f26ec38f9e2cc9c0d0c4104c9 StaticDependenciesID=fc0488f4e0d2e1f88ce804d0cfacb398 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Walking Animation right for juan_files/Slider-kklwipbf.css
+  importAddress: Guid(563dd5c930bdda1499c07e6c542eda16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/Slider-kklwipbf.css using Guid(563dd5c930bdda1499c07e6c542eda16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd1f05e8cf2773c927c26ab58011cd340') in 0.0066287 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc7eff868379968e35c380720e9b337b DependenciesID=3ad2c47e1b8e4c7550d7c3ff61b7a75e StaticDependenciesID=6d3e96eba995fac8f200ab036a06b383 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Walking Animation Frames transition_files/image-viewer-f73z3svd.css
+  importAddress: Guid(830370174192f1340837696124b736d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/image-viewer-f73z3svd.css using Guid(830370174192f1340837696124b736d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e372b22a43c2f7ccc42679b4812f71d') in 0.0070875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=baa2641c537595080bb234e452ed4e27 DependenciesID=4af711d9ae60a99536fc276ef808a3d8 StaticDependenciesID=1a5129d40f767759ac18d099aa24f330 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Walking Animation Frames transition_files/conversation-small-ofum8fxd(1).css
+  importAddress: Guid(bc1648c3d338c6142b656c05f8eda01d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/conversation-small-ofum8fxd(1).css using Guid(bc1648c3d338c6142b656c05f8eda01d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db1a8dcad4bb191fc7bb6b312db99ef5') in 0.0065059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3415262a187b473d21087df8f9aa5f72 DependenciesID=a85567b1f3e6493f3c806fdbf8fbc929 StaticDependenciesID=fec33f25d3bf4e22983954681a793952 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/sdk.js.download
+  importAddress: Guid(bdc2365ea357052438c40cbce74aaa6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/sdk.js.download using Guid(bdc2365ea357052438c40cbce74aaa6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dcebac49eb48672469160a7dc0806575') in 0.014134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de3617db65e169f30639f35894a9ab9d DependenciesID=f43f94586f6a440b1140b0845d5c99ce StaticDependenciesID=49c45e67c50d670e6f339144a4595757 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Walking Animation right for juan_files/SelectControl-d4vm7hsk.css
+  importAddress: Guid(4ff6bbe41b5d42847b0c19c42cb9f7bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/SelectControl-d4vm7hsk.css using Guid(4ff6bbe41b5d42847b0c19c42cb9f7bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b28ee6cc6dc28a4376991f037ca410bd') in 0.0088142 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e57c81aac7995b857805e79aa5ebba74 DependenciesID=bdb0ee9aeb7f0a197a880f5781393a11 StaticDependenciesID=83439b8f462b57984c70ffcf36ea4f43 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Walking Animation Frames transition_files/cot-message-chunk-b8hse3v2.css
+  importAddress: Guid(cac37a71c8cb38b47af8112cff720c9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/cot-message-chunk-b8hse3v2.css using Guid(cac37a71c8cb38b47af8112cff720c9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19d5dbfd4b2d51f022286f0717544226') in 0.0105089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=018380ab4d0dd72f3863c8ffd9671efb DependenciesID=c4edd2f62fdc4179f68769c7ae42d769 StaticDependenciesID=f46bdb1284772beaccf657080eff109a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000848 seconds.
+  path: Assets/Walking Animation right for juan_files/RadioGroup-m8zapj2d.css
+  importAddress: Guid(9ce00a9988f9d0e4fbe87fd7a7f2aaa4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/RadioGroup-m8zapj2d.css using Guid(9ce00a9988f9d0e4fbe87fd7a7f2aaa4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bfd48bd13dc2d93beb9fee932d727ca8') in 0.0099537 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf528150a0af94d7f5a881738967328f DependenciesID=01d738a1dc746768912d73475c179fd1 StaticDependenciesID=cdc3f148443208bc126e47d159be38b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000872 seconds.
+  path: Assets/Walking Animation right for juan_files/juan.png
+  importAddress: Guid(44131a47250853341a657ddf956284fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/juan.png using Guid(44131a47250853341a657ddf956284fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '24416d9c5b62754bd688344f62e2ff32') in 0.0174726 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77b300dedbef6b0ffb2008057e732280 DependenciesID=714c0ec7b31f96eda73c71da2bc1c36e StaticDependenciesID=ead04ae87c6f45c1f88d109d6053b830 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Walking Animation Frames transition_files/Checkbox-czjr2qm8.css
+  importAddress: Guid(d0d0d9196854f0c4995e9ded4e95b63b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Checkbox-czjr2qm8.css using Guid(d0d0d9196854f0c4995e9ded4e95b63b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b70a83bdd0975990d68fcdccfdf34857') in 0.0075303 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7d794228b04e1ec2992faf8b68c3fb6 DependenciesID=2ce78a5204282b705b03ac72fb33db03 StaticDependenciesID=8e1dac299461fb4d65aeb55f22b53fd5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Walking Animation right for juan_files/TextLink-hyfuyd7n.css
+  importAddress: Guid(c8cac96090c11294286aec9b79fba340) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/TextLink-hyfuyd7n.css using Guid(c8cac96090c11294286aec9b79fba340) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ffd6be664eb21f9998c68e14b169e36') in 0.0082058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25736638879d25168ff825b00d4c3bbd DependenciesID=5aa2788e8b41dce71216bd67add6191e StaticDependenciesID=7619bbe1c6f9349b3b40dfdaafe3f976 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Walking Animation right for juan_files/Textarea-kptmthkv.css
+  importAddress: Guid(bd32c4bd86c3f3c49ad42f8c5f9b46e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/Textarea-kptmthkv.css using Guid(bd32c4bd86c3f3c49ad42f8c5f9b46e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9f51ed9e4c3263a885015022d7703f6f') in 0.0084289 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ef9f3c49c5d1116dc830cac016b9672 DependenciesID=0c36821d993c0d86a7fb2995cbd6b15f StaticDependenciesID=6ba6665197a6b956e0db555444c0957d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Walking Animation Frames transition_files/Select-nb3why33.css
+  importAddress: Guid(de6f2213287c44340adea29251175032) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Select-nb3why33.css using Guid(de6f2213287c44340adea29251175032) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2a180a181d315a7378fb336504ccfd27') in 0.0085948 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee322410c4ac72f81d81e588c6ca9618 DependenciesID=5e3228b9511a1df587f900867eb41fdf StaticDependenciesID=7b79ed3b3f01da4fc7b1c6e19b6e0b54 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Walking Animation Frames transition_files/7d259032-f397-4a9e-b2b9-c45f33c92941.png
+  importAddress: Guid(7f3039e228015f24db20776d19a18ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/7d259032-f397-4a9e-b2b9-c45f33c92941.png using Guid(7f3039e228015f24db20776d19a18ed9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '917f3cac7ee33e776d2e0b74189f6bf3') in 0.0158857 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5891fc977eb42072b052e2823e1a8378 DependenciesID=2a059e559061d3818ab641540607bbd8 StaticDependenciesID=7531fc63d1d5d91dd72a63158fe1eb9c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032710 seconds.
+  path: Assets/Walking Animation right for juan_files/react-cj2gxmrc.css
+  importAddress: Guid(73fb77408be7b1c42952cc768d949169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/react-cj2gxmrc.css using Guid(73fb77408be7b1c42952cc768d949169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16f0b94c2a127b3dbf10f8ac3b1c1cd2') in 0.0058049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f79b2cd4a23ec43bd4a5c9bd1175668 DependenciesID=e07b6995440b172326ad9335cd909b4e StaticDependenciesID=aa6586d02bc030c4aea34275cff803b3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/conversation-small-ofum8fxd.css
+  importAddress: Guid(d74db824a7c15b944aa1a3fab5edecd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/conversation-small-ofum8fxd.css using Guid(d74db824a7c15b944aa1a3fab5edecd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '547382ca2416fab73c4e83366f68fa7c') in 0.0079458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7e3c216ce05fdd886b48886ca2a8033 DependenciesID=69abf89105f9db717aec3630028cfd55 StaticDependenciesID=8e14db9efa7aafc52131fe2f9f28ad1d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/runner-BjsFiMWq.js.download
+  importAddress: Guid(52d068ef63e0b0d41a6a634cd72f7f4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/runner-BjsFiMWq.js.download using Guid(52d068ef63e0b0d41a6a634cd72f7f4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e8325d030863a46d5587f07780fba94') in 0.0069965 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4b319bd742aadb5c0011676341bf6ce DependenciesID=39c3f1f55213a8d20aef4118695215e5 StaticDependenciesID=74af4645e8dac390038d6552789ddbb5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Walking Animation right for juan_files/multiplayer-pp910s5j.css
+  importAddress: Guid(e110758586632a14983bce6deb2291ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/multiplayer-pp910s5j.css using Guid(e110758586632a14983bce6deb2291ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '32d320bc1993c7c43d45efab713e69c7') in 0.0065164 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5dc964dd982e43584be91a9edadec3e DependenciesID=72eb72144b14e8ec81d0ac2c974ddf3b StaticDependenciesID=b2bc084ca2fb505700dcac1a58f965c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/7d259032-f397-4a9e-b2b9-c45f33c92941.png
+  importAddress: Guid(6526dab0fe071e849badc2b32889e78e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/7d259032-f397-4a9e-b2b9-c45f33c92941.png using Guid(6526dab0fe071e849badc2b32889e78e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5e79725f9ac606e0afce1790777908ab') in 0.0169394 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5be7d1edf11da392ef44c3979f157e4f DependenciesID=c37b69756a9f1ff4f205627248a37a1b StaticDependenciesID=4b802c18e40835a4cd05eee862737695 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000669 seconds.
+  path: Assets/Walking Animation right for juan_files
+  importAddress: Guid(24b36c50b3432ef488b07fdec6ef1b8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files using Guid(24b36c50b3432ef488b07fdec6ef1b8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7407f19041f55dd0902851a70a588a0e') in 0.0103419 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a59e4c3484a5e015f8773022f364eea7 DependenciesID=4c1103ae587da1129b8193fc20941a31 StaticDependenciesID=8543bddbca085754b162d3501f268edd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Walking Animation Frames transition_files/SegmentedControl-gvbd68zk.css
+  importAddress: Guid(9b49e579c357cb248b7be0dd61470772) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/SegmentedControl-gvbd68zk.css using Guid(9b49e579c357cb248b7be0dd61470772) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1cb47cf91814559d1eeb5906843a67c6') in 0.008479 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b269985b591d2ae1c4975000001c73e DependenciesID=2c603260fd85edc6123d5418512877d7 StaticDependenciesID=1feb4bedc1a676c9f4a6518bcddbbfa4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Walking Animation Frames transition_files/frame.html
+  importAddress: Guid(4db6c6d04f8a3bf47a3220cd1a918cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/frame.html using Guid(4db6c6d04f8a3bf47a3220cd1a918cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9b32701769c80432ad505c1564107a9') in 0.0073884 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01fcdce2011423d5f89f50674b14a03a DependenciesID=a4d9775c38dc768809da2bced01bf98f StaticDependenciesID=d0f86e3b1d293e5631fc012ae7e14a79 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Walking Animation right for juan_files/global-modals-m6d51e47.css
+  importAddress: Guid(e7c51a08973e1a544a38d98f0bc1380f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/global-modals-m6d51e47.css using Guid(e7c51a08973e1a544a38d98f0bc1380f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd51d5fbcf826244b13681235622f6ae1') in 0.0091343 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=270fedccb7c5a6862134ac2e48a8f79c DependenciesID=7e00ee7bffdea3d8670b3451c6b0132e StaticDependenciesID=2b215d22ca113a49c4e4162f987f2f05 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Walking Animation Frames transition_files/Popover-jjzuc9pc.css
+  importAddress: Guid(8a2b8cc40512d7f45bd486aecb2b5740) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Popover-jjzuc9pc.css using Guid(8a2b8cc40512d7f45bd486aecb2b5740) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6dccf523ce6f574d6eb5463da7cde97a') in 0.0081875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d658f930e8fe914106ceb73910d74abd DependenciesID=a908e11d2bfe58f4688d90f5bab7411a StaticDependenciesID=d7bb3db8fd85c5585c3672811412d8b9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Walking Animation right for juan_files/Select-nb3why33.css
+  importAddress: Guid(17d413a5a8e0418409a67e82b383af84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/Select-nb3why33.css using Guid(17d413a5a8e0418409a67e82b383af84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9cf645a6bf2c526ca3798705209a431b') in 0.0066737 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f98cd90cf7e2eec2562d1e56ed37801 DependenciesID=6aa52ee9a52477484da381a3c7a8a16f StaticDependenciesID=0a233a33025bf9021cef210da088803c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Walking Animation right for juan_files/conversation-small-ofum8fxd.css
+  importAddress: Guid(333265a7384ed384680f2e19e8578c3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/conversation-small-ofum8fxd.css using Guid(333265a7384ed384680f2e19e8578c3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '81072871d602c2f3785559749a17d980') in 0.0063854 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a843a1b4014e26e4945fc3d27b1d827d DependenciesID=a9dedcc9a9d504b09558eafcc9c13098 StaticDependenciesID=49f03fca48308cc5f0415cabb0435e46 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Walking Animation right for juan_files/Image-nnxrmk5d.css
+  importAddress: Guid(c5a8e5e9a1bef434fa4c7a544876facd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/Image-nnxrmk5d.css using Guid(c5a8e5e9a1bef434fa4c7a544876facd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '41fdf5a4f3d6e18b40e8ed6a37c0c847') in 0.0083897 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59d5a5c92f9d4e0fdc5eae4ad0f32b3b DependenciesID=100a5c207b7b1e53b11a8c754303fcd8 StaticDependenciesID=921bf915c322886ec9ed3e50750ac387 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Walking Animation Frames transition_files/Slider-kklwipbf.css
+  importAddress: Guid(794195020a76172489a48ed6df4ca138) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Slider-kklwipbf.css using Guid(794195020a76172489a48ed6df4ca138) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f083b39a1202760ad9a4bb27d054eb96') in 0.0070805 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aca73bbd4f21aabdf1f76167bd484fa7 DependenciesID=36439dfcde7dab67f3a746ede4151448 StaticDependenciesID=cf9e2119c56c981edc86a09327544aef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/root-gpzllzyu(1).css
+  importAddress: Guid(078b56f757273a440b5835b480045b15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/root-gpzllzyu(1).css using Guid(078b56f757273a440b5835b480045b15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '79283ed73e4f09ca5d07c46c52ad97e9') in 0.0082782 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa4fcac4e5b5b3931ef445affa4e857a DependenciesID=35e99c336509437e45fd02ab2098ebbf StaticDependenciesID=90043fd893c0c074df17c40c54adb01c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Walking Animation Frames transition_files/Image-nnxrmk5d.css
+  importAddress: Guid(70fa2c56fb9efe5438bff1f4d69c083b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/Image-nnxrmk5d.css using Guid(70fa2c56fb9efe5438bff1f4d69c083b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'faab53de304d4010be330b06509d29ab') in 0.0086381 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=206f2bb0fabcd05db210558f56a05cb9 DependenciesID=1d540110ae66bdb9a1cbbaf0949d34c8 StaticDependenciesID=b18e7ea2b086b33b232c4f74e127af85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Walking Animation right for juan_files/writing-block-gwgymy54.css
+  importAddress: Guid(d076b19c8c8043744bfea30f8a78b1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/writing-block-gwgymy54.css using Guid(d076b19c8c8043744bfea30f8a78b1bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '533793d3aa096e19adab8764609bb318') in 0.0059772 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b898b2a122dec7f5a54644ff338062cc DependenciesID=d4ea6a4177f70c0dbbbba08c5eebb6c5 StaticDependenciesID=61f7f5da1e6aad2c315fb5ccdb91ae17 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Walking Animation Frames transition_files/SmoothedMarkdown-3zguu66h.css
+  importAddress: Guid(55f72351181b2c941b5023b206a995cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames transition_files/SmoothedMarkdown-3zguu66h.css using Guid(55f72351181b2c941b5023b206a995cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2581f8965f33ea7369e98de61ec56b7') in 0.0068925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2820c3eb779ece257e521bb8696d1176 DependenciesID=d8203d61173698612de462b9250b3349 StaticDependenciesID=b52437003378a6c05b0d7e42f1d6eb26 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Walking Animation right for juan_files/client-defined-widget-gdqdmhro.css
+  importAddress: Guid(ece8dcd8250a5fc49a2a90c8fcbe3712) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation right for juan_files/client-defined-widget-gdqdmhro.css using Guid(ece8dcd8250a5fc49a2a90c8fcbe3712) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ae56cdd6a5c79def48ed82074cdfc17') in 0.011248 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd61d03a9925981599c4a69553c2f21a DependenciesID=0b7c962cca8919a66b5a9413530197d1 StaticDependenciesID=d1868312023bc8a513d243639e6326ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/cot-message-chunk-b8hse3v2.css
+  importAddress: Guid(6d2125d9215a6b54d970593305c48dcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/cot-message-chunk-b8hse3v2.css using Guid(6d2125d9215a6b54d970593305c48dcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ac434aa4f4f0aecff4c65befb12bc68e') in 0.0085486 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c8bdc8a78b211f74ed63f718e0814d2 DependenciesID=8e562764e7205b8db558f2a1739e7d4c StaticDependenciesID=c967051624ad3614874c9e07d77641ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/cot-v5-fnydfm44.css
+  importAddress: Guid(5d3d19551f1984047a561ab203998446) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Walking Animation Frames right for juan_files/cot-v5-fnydfm44.css using Guid(5d3d19551f1984047a561ab203998446) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1e4dec8b4664fbdb3febdd6ddce8afb2') in 0.0096659 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=308b8be65155cb019eae2c8ce0b30dec DependenciesID=5984f7b70d5bfd559bbf01a8401b5abb StaticDependenciesID=92fd053b869427df3ec7f0c7c36ff785 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.562415 seconds.
+  path: Assets/Walking Animation Frames transition.html
+  importAddress: Guid(755c5ba9d2ce0b9438e22007e50ea47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walking Animation Frames transition.html using Guid(755c5ba9d2ce0b9438e22007e50ea47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4fa4706e6909cb4185d7fcddc89e1083') in 0.0015243 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eee6056d1fc15c6eb4c95850f9ff5da8 DependenciesID=f0cd45002b21fca0143faa7938ff6660 StaticDependenciesID=a3318de965b7e887d52d5e805457fb44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.274516 seconds.
+  path: Assets/Walking Animation Frames right for juan_files/juan.png
+  importAddress: Guid(2645acefd944e0343b6b61d1784e8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walking Animation Frames right for juan_files/juan.png using Guid(2645acefd944e0343b6b61d1784e8c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '4637c8beb3606da88fbef93f31ee95ca') in 0.0201053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d403a8867265dadff68583b766dc0b88 DependenciesID=6b2c60d9f0a4cff27b5e5839cb209e2a StaticDependenciesID=aa18729d492cd5b64ed9d6f63897774d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.732895 seconds.
+  path: Assets/Walking Animation right for juan_files/juan.png
+  importAddress: Guid(44131a47250853341a657ddf956284fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Walking Animation right for juan_files/juan.png using Guid(44131a47250853341a657ddf956284fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '425f081c090326e8cc29f2650c1f86e1') in 0.0153538 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=012b0c7ac7ca4cc1e8391b5b4f79d6bb DependenciesID=092644e9c59d708c5d5eeb97340843f2 StaticDependenciesID=87b658b1a0832da90a11048a07dfbe7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
